@@ -1,0 +1,78 @@
+:root {
+    --color-background: #F0F0F7;
+    --color-secundary: #04D361;
+    --color-secundary-dark: #04BF58;
+    --color-text-complement: #9C98A6;
+    --color-line-in-white: #E6E6F0;
+    --color-input-background: #F8F8FC;
+    --color-button-text: #FFFFFF;
+    --color-box-base: #FFFFFF;
+    --color-box-footer: #FAFAFC;
+
+    font-size: 60%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100vh;
+}
+
+body {
+    background: #F0F0F7;
+}
+
+fieldset {
+    border: none;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body,
+input,
+button,
+textarea {
+    font: 500 1.6rem Poppins;
+    color: #616161;
+}
+
+.container {
+    width: 90vw;
+    max-width: 700px;
+}
+
+@media (min-width: 700px) {
+    :root {
+        font-size: 62.75%
+    }
+}
+
+.btn {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    color: black;
+    text-align: center;
+    line-height: 1.6;
+    border-radius: 0.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    background: rgb(219, 219, 219);
+    outline: none;
+    border: none;
+}
+.btn:hover {
+    background: rgb(184, 184, 184);
+}
+
+.btn img {
+    width: 1rem;
+}

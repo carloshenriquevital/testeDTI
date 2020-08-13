@@ -1,0 +1,50 @@
+
+table, tbody {
+    width: 100%;
+}
+
+table th {
+    font-size: 1.4rem;
+}
+
+.list-item-actions .btn:first-child {
+    margin-right: 3px;
+}
+
+.list-item-checkbox, .list-item-name, .list-item-quantity, .list-item-price {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-item-actions {
+    width: 10%;
+}
+
+.list-item-name {
+    width: 50%;
+}
+
+.list-item-quantity {
+    width: 20%;
+}
+
+.list-item-price {
+    width: 20%;
+}
+
+@media (max-width: 700px) {
+    thead {
+        display: none;
+    }
+
+    .list-item-actions .btn:first-child {
+        margin-bottom: 5px;
+        margin-right: 3px;
+    }
+    
+    .list-item-actions .btn{
+        display: block;
+        width: 34px;
+        height: 34px;
+    }
+}

@@ -1,0 +1,20 @@
+#page-product-create {
+    width: 100vw;
+    height: 100vh;
+}
+
+#page-product-create main {
+    margin: 2rem auto;
+    width: 90%;
+}
+
+
+@media (min-width: 700px) {
+    #page-product-create {
+        max-width: 100%;
+    }
+
+    #page-product-create main {
+        max-width: 740px;
+    }
+}

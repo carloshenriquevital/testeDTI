@@ -1,0 +1,23 @@
+#page-product-edit {
+    width: 100vw;
+    height: 100vh;
+}
+
+#page-product-edit main {
+    margin: 2rem auto;
+    width: 90%;
+}
+
+
+
+
+
+@media (min-width: 700px) {
+    #page-product-edit {
+        max-width: 100%;
+    }
+
+    #page-product-edit main {
+        max-width: 740px;
+    }
+}
