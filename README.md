@@ -31,7 +31,7 @@ Para gerenciamento de rotas foi utilizado o react router, e para comunicação c
 
 Foram criadas 3 telas, uma de listagem, uma de cadastro de produto e a última de edição de produto. Nessas telas são utilizados componentes comuns entre si, criados com a reutilização de código em mente, dentre os componentes criados, podem ser destacados, Input, CurrencyInput e NumericInput que são para entrada de dados, sendo esses dois últimos com aplicação de filtro para permitir apenas a entrada de números, e o CurrencyInput possui máscara para digitar valores com casa decimal.
 
-Tambem foi criado o componente PageHeader que é um cabeçalho padrão em todas as páginas, e o ContentHeader que é um subtítulo que identifica as páginas e permite a inserção dos botões de adição e voltar. Também foram criados os componentes ListProducts e ListProductItem que são utilizados na construção da página de listagem de produtos.
+Também foi criado o componente PageHeader que é um cabeçalho padrão em todas as páginas, e o ContentHeader que é um subtítulo que identifica as páginas e permite a inserção dos botões de adição e voltar. Também foram criados os componentes ListProducts e ListProductItem que são utilizados na construção da página de listagem de produtos.
 
 ## Executar o back-end utilizando Docker
 Acessar a pasta ./back
