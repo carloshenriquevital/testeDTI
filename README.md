@@ -26,12 +26,12 @@ DELETE - /products/{id}
 
 POST - /login
 
-No front-end foi utilizado React com typescript devido aos benefícios da tipagem de dados, e o gerenciador de pacotes utilizado foi o yarn. A interface construida está bem minimalista e não foi utilizado nenhum framework CSS.
+No front-end foi utilizado React com typescript devido aos benefícios da tipagem de dados, e o gerenciador de pacotes utilizado foi o yarn. A interface construída está bem minimalista e não foi utilizado nenhum framework CSS.
 Para gerenciamento de rotas foi utilizado o react router, e para comunicação com a API foi utilizada a biblioteca axios devido sua flexibilidade, confiabilidade e facilidade de uso.
 
-Foram criadas 3 telas, uma de listagem, uma de cadastro de produto e a ultima de edição de produto. Nessas telas são utilizados componentes comuns entre si, criados com a reutilização de código em mente, dentre os componentes criados, podem ser destacados, Input, CurrencyInput e NumericInput que são para entrada de dados, sendo esses dois últimos com aplicação de filtro para permitir apenas a entrada de números, e o CurrencyInput possui máscara para digitar valores com casa decimal.
+Foram criadas 3 telas, uma de listagem, uma de cadastro de produto e a última de edição de produto. Nessas telas são utilizados componentes comuns entre si, criados com a reutilização de código em mente, dentre os componentes criados, podem ser destacados, Input, CurrencyInput e NumericInput que são para entrada de dados, sendo esses dois últimos com aplicação de filtro para permitir apenas a entrada de números, e o CurrencyInput possui máscara para digitar valores com casa decimal.
 
-Tambem foi criado o componente PageHeader que é um cabeçalho padrão em todas as páginas, e o ContentHeader que é um subtítulo que identifica as páginas e permite a inserção dos botões de adição e voltar. Também foram criados os componentes ListProducts e ListProductItem que são utilizados na contrução da página de listagem de produtos.
+Tambem foi criado o componente PageHeader que é um cabeçalho padrão em todas as páginas, e o ContentHeader que é um subtítulo que identifica as páginas e permite a inserção dos botões de adição e voltar. Também foram criados os componentes ListProducts e ListProductItem que são utilizados na construção da página de listagem de produtos.
 
 ## Executar o back-end utilizando Docker
 Acessar a pasta ./back
@@ -52,4 +52,6 @@ Acessar a pasta ./front
 
 **docker run --rm -d  -p 80:80/tcp front:latest**
 
-https://github.com/carloshenriquevital/testeDTI
+## Executar o front-end utilizando terminal
+**yarn start**
+
